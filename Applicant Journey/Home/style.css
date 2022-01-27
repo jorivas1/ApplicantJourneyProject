@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+ul{
+    list-style: none;
+}
+#heading{
+    text-align: center;
+    padding: 125px;
+    color: #ffecd1;
+    background-color: #15616d;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+}
+#nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav{
+    background-color: #001524;
+    padding: 10px;
+    margin: auto;
+}
+a { 
+    color: #ffecd1;
+    text-decoration: none; 
+    width: auto;
+} 
+a:hover{ 
+    color: #ffecd1;
+    background-color: #15616d;
+    cursor:pointer;
+    padding: 10px 5px ;
+    margin: auto;
+} 
+#journey{
+    background-color: #d9d9d9;
+    padding: 50px;
+    text-align: center;
+}
+#journey h2{
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 25px;
+}
+#journey-steps li{
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin: 7.5px;
+}
+#journey-steps p{
+    margin: 7.5px;
+}

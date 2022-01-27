@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+ul{
+    list-style: none;
+}
+#heading{
+    text-align: center;
+    padding: 125px;
+    color: #ffecd1;
+    background-color: #15616d;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+}
+#nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav{
+    background-color: #001524;
+    padding: 10px;
+    margin: auto;
+}
+a { 
+    color: #ffecd1;
+    text-decoration: none; 
+    width: auto;
+} 
+a:hover{ 
+    color: #ffecd1;
+    background-color: #15616d;
+    cursor:pointer;
+    padding: 10px 5px ;
+    margin: auto;
+} 
+#all{
+    background-color: #bee3db;
+    padding: 15px;
+}
+#form{
+    text-align: center;
+    margin: 50px 450px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ffb703;
+}
+#form h3{
+    text-align: center;
+    margin: 20px;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: bold;
+}
+.form-input{
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    text-align: center;
+}  
+#contact-submit{
+    font-weight: bolder;
+    width: 75%;
+    background-color: #f77f00;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#contact-submit:hover{
+    cursor: pointer;
+}
